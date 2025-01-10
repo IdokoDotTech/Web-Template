@@ -6,18 +6,12 @@
     width: 50px;
 }
 nav{
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     width: 100%;
     height: 40px;
     justify-content: space-between;
     align-items: center;
-
-}
-.navlink{
-    display: flex;
-    color: black;
-    justify-content: space-between;
 
 }
 .navlink ul{
@@ -31,10 +25,15 @@ nav{
 }
 .navlink ul li a{
     text-decoration: none;
-
+    color: black;
 }
+
+.navlink ul li a:hover{
+    color: lawngreen;
+}
+
 #section1{
-    background: linear-gradient(rgba(0, 0, 0, 0.561), rgba(255, 0, 0, 0.508)), url(resources/OIG2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.923)), url(resources/OIG2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,12 +45,13 @@ nav{
     position: relative;
     top: 70vh;
     left: 20vw;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .text1 p{
     color: aliceblue;
 }
 .header{
+    padding-top: 30px;
     text-align: center;
     background-color: rgb(208, 224, 239);
 }
@@ -68,6 +68,10 @@ nav{
     width: 300px;
     height: 150px;
     text-align: center;
+    padding: 20px;
+}
+.icon{
+    padding-bottom: 10px;
 }
 hr{
     margin-right: 100px;
@@ -75,12 +79,12 @@ hr{
 }
 .head{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding: 30px;
+    font-size: 20px;
 }
 .section3{
-    background-color: red;
-    height: 100%;
+    background-color: lawngreen;
+    height: 80vh;
 }
 .h3{
     background-color: rgba(255, 255, 255, 0.586);
@@ -97,17 +101,14 @@ hr{
 .images{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
+    gap: 50px;
 }
 .image{
-    width: 250px;
+    width: 300px;
     height: 250px;
 }
 .img{
-    height: 200px;
-    width: 250px;
+    width: 100%;
 }
 
 @media(max-width:499px){

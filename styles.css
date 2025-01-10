@@ -49,6 +49,7 @@ nav{
 }
 .text1 p{
     color: aliceblue;
+    font-size: 10px;
 }
 .header{
     padding-top: 30px;
@@ -117,6 +118,7 @@ hr{
     }
     .boxes{
         display: block;
+        padding: 0px;
     }
     .box{
         margin-bottom: 20px;
@@ -125,8 +127,7 @@ hr{
     .images{
         display: block;
     }
-    .image{
-    }
+   
 
 
     

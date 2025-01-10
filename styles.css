@@ -84,7 +84,7 @@ hr{
     font-size: 20px;
 }
 .section3{
-    height:100vh; 
+    height:300vh; 
     background-color: lawngreen;
 }
 .h3{
@@ -130,8 +130,8 @@ hr{
         display: block;
     }
     .image{
-        margin-bottom: 20px;
-        margin: 100px;
+        margin-bottom: 100px;
+        margin: 20px;
     }
    
 

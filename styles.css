@@ -123,12 +123,14 @@ hr{
     }
     .box{
         margin-bottom: 20px;
+        margin: 20px;
     }
 
     .images{
         display: block;
     }
     .image{
+        margin-bottom: 20px;
         margin: 20px;
     }
    

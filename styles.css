@@ -84,8 +84,8 @@ hr{
     font-size: 20px;
 }
 .section3{
+    height:100vh; 
     background-color: lawngreen;
-    height: 80vh;
 }
 .h3{
     background-color: rgba(255, 255, 255, 0.586);
@@ -131,7 +131,7 @@ hr{
     }
     .image{
         margin-bottom: 20px;
-        margin: 20px;
+        margin: 100px;
     }
    
 

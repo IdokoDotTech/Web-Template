@@ -127,7 +127,9 @@ hr{
 
     .images{
         display: block;
-        padding: 20px;
+    }
+    .image{
+        margin: 20px;
     }
    
 

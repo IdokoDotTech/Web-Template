@@ -119,6 +119,7 @@ hr{
     .boxes{
         display: block;
         padding: 0px;
+        margin: 0px;
     }
     .box{
         margin-bottom: 20px;
@@ -126,6 +127,7 @@ hr{
 
     .images{
         display: block;
+        padding: 20px;
     }
    
 
